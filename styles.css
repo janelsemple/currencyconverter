@@ -4,7 +4,7 @@
     font-family: 'Ubuntu', sans-serif;
     background-color: blanchedalmond;
     border-radius: 10px;
-    margin: 15% 15% 15% 15%;
+    margin: 10vh 10vw 10vh 10vw;
     text-align: center;
     padding: 80px;
 }
@@ -23,12 +23,13 @@ header{
 }
 
 label, input, select{
-    font-size: 1.5vw;
+    font-size: 1vw;
     font-weight: 700;
 }
 
 table{
     margin: auto;
+    margin-bottom: 50px;
     border: solid 4px black;
     background-color: rgba(131, 25, 25, 0.299); 
     border-radius: 10px;  
@@ -39,8 +40,9 @@ img{
 }
 
 input {
-     max-width: 200px;
+     max-width: 25vw;
 }
+
 tr, td{
     border: solid 4px black;
 }

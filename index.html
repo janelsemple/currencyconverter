@@ -35,23 +35,23 @@
             <tr>
                 <td>
                     <select name="currency" id="currency">
-                        <option value="Euro">Euro</option>
-                        <option value="US Dollar">US Dollar</option>
-                        <option value="Canadian Dollar">Canadian Dollar</option>
-                        <option value="Bitcoin">Bitcoin</option>
-                        <option value="Ethereum">Ethereum</option>
+                        <option value="0">Euro</option>
+                        <option value="1">US Dollar</option>
+                        <option value="2">Canadian Dollar</option>
+                        <option value="3">Bitcoin</option>
+                        <option value="4">Ethereum</option>
                     </select>
                 </td>
                 <td>
                     <input type="number" name="amount" id="amount" min="0">
                 </td>
                 <td>
-                    <select name="convertto" id="convertto">
-                        <option value="Euro">Euro</option>
-                        <option value="US Dollar">US Dollar</option>
-                        <option value="Canadian Dollar">Canadian Dollar</option>
-                        <option value="Bitcoin">Bitcoin</option>
-                        <option value="Ethereum">Ethereum</option>
+                    <select name="convertTo" id="convertTo" onchange="convert()" >
+                        <option value="0">Euro</option>
+                        <option value="1">US Dollar</option>
+                        <option value="2">Canadian Dollar</option>
+                        <option value="3">Bitcoin</option>
+                        <option value="4">Ethereum</option>
                     </select>
                 </td>
                 <td>
@@ -62,4 +62,4 @@
     </div>
     
 </body>
-</html>
+</html> 
